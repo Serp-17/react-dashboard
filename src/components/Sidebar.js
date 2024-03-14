@@ -4,7 +4,7 @@ import SimpleBar from 'simplebar-react';
 import { useLocation } from "react-router-dom";
 import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faCog, faFileAlt, faHandHoldingUsd, faSignOutAlt, faTable, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faChartPie, faCog, faCarSide, faSignOutAlt, faTimes, faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { Nav, Badge, Image, Button, Dropdown, Accordion, Navbar } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -96,10 +96,12 @@ export default (props = {}) => {
               </Nav.Link>
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
-              <NavItem title="Volt React" link={Routes.Presentation.path} image={ReactHero} />
+              <NavItem title="DriveHub CRM" link={Routes.Presentation.path} image={null} />
 
-              <NavItem title="Overview" link={Routes.DashboardOverview.path} icon={faChartPie} />
-              <NavItem title="Settings" icon={faCog} link={Routes.Settings.path} />
+              <NavItem title="Статистика" link={Routes.DashboardOverview.path} icon={faChartPie} />
+              <NavItem title="Машины" icon={faCarSide} link={Routes.Cars.path} />
+              <NavItem title="Водителя" icon={faIdCard} link={Routes.Drivers.path} />
+              <NavItem title="Настройки" icon={faCog} link={Routes.Settings.path} />
 
               <Dropdown.Divider className="my-3 border-indigo" />
 

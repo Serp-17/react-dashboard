@@ -6,12 +6,27 @@ export const Routes = {
         private: false,
     },
     DashboardOverview: {
-        title: "",
+        title: "Dashboard",
         path: "/dashboard",
         private: true,
     },
-    Settings: {
+    Cars: {
+        title: "Auto",
+        path: "/cars",
+        private: true,
+    },
+    Car: {
         title: "",
+        path: "/car/:id",
+        private: true,
+    },
+    Drivers: {
+        title: "Drivers",
+        path: "/drivers",
+        private: true,
+    },
+    Settings: {
+        title: "Settings",
         path: "/settings",
         privateRouter: true,
     },
