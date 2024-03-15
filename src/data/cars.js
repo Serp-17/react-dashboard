@@ -280,3 +280,61 @@ export const carsData = [
         ]
     },
 ];
+
+
+const сarMakes = [
+    "Toyota",
+    "Ford",
+    "Chevrolet",
+    "Honda",
+    "Nissan",
+    "Jeep",
+    "Subaru",
+    "BMW",
+    "Mercedes-Benz",
+    "Hyundai",
+    "Volkswagen",
+    "Audi",
+    "Lexus",
+    "Kia",
+    "Mazda"
+];
+
+export const carModel = {
+    "Toyota": [
+        "Camry",
+        "Corolla",
+        "Rav4",
+        "Highlander",
+        "Tacoma",
+        "Prius",
+        "Sienna",
+        "Tundra",
+        "4Runner",
+        "Yaris"
+    ],
+    "Ford": [
+        "Fusion",
+        "Focus",
+        "Escape",
+        "Explorer",
+        "F-150",
+        "Mustang",
+        "Edge",
+        "Expedition",
+        "Ranger",
+        "Taurus"
+    ],
+    "Hyundai": [
+        "Elantra",
+        "Sonata",
+        "Tucson",
+        "Santa Fe",
+        "Accent",
+        "Kona",
+        "Veloster",
+        "Palisade",
+        "Venue",
+        "Ioniq"
+    ]
+}

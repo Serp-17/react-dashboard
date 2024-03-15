@@ -11,4 +11,5 @@ export {default as ServerError} from './ErrorPages/ServerError';
 export {default as NotFoundPage} from './ErrorPages/NotFound';
 export {default as CarsPage} from './CarPages/Cars';
 export {default as CarPage} from './CarPages/Car';
+export {default as CarCreate} from './CarPages/CarCreate';
 export {default as Drivers} from './DriversPages/Drivers';

@@ -16,8 +16,13 @@ export const Routes = {
         private: true,
     },
     Car: {
-        title: "",
-        path: "/car/:id",
+        title: "Car",
+        path: "/cars/:id",
+        private: true,
+    },
+    CarCreate: {
+        title: "Car create",
+        path: "/car/create",
         private: true,
     },
     Drivers: {

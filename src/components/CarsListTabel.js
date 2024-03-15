@@ -1,7 +1,7 @@
-import {Button, Card, Table} from "@themesberg/react-bootstrap";
+import React from "react";
+import {Button, Card, Table} from "react-bootstrap";
 import Status from "./Status";
 import {carsData} from "../data/cars";
-import React from "react";
 
 export const CarsList = () => {
     const TableRow = (props) => {
@@ -28,7 +28,7 @@ export const CarsList = () => {
                 <td>{model}</td>
                 <td>{driver ? driver : "--"}</td>
                 <td>
-                    <Status status={status} />
+                    <Status status={status}/>
                 </td>
                 <td>
                     <Button>
